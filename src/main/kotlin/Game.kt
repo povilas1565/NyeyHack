@@ -5,12 +5,11 @@ fun main(args: Array<String>) {
     val isBlessed = true
     val isImmortal = false
 
-
     val auraColor = auraColor(isBlessed, healthPoints, isImmortal)
 
     val healthStatus = formatHealthStatus(healthPoints, isBlessed)
 
-    printPlayerStatus(auraColor, isBlessed, name, healthStatus)
+    printPlayerStatus(auraColor, isBlessed, name , healthStatus)
 
     castFireball()
 }
